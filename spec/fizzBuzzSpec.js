@@ -1,5 +1,9 @@
 describe('fizzBuzz', function() {
-    it('check if the number is equal to 3', function() {
-        expect(fizzBuzz(3)).toBe(Fizz);
+    it('returns fizz if passed 3', function() {
+        expect(fizzBuzz(3)).toBe('Fizz');
+    });
+
+    it('returns buzz if passed 5', function() {
+        expect(fizzBuzz(5)).toBe('Buzz');
     });
 });
