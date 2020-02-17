@@ -14,7 +14,12 @@ describe('fizzBuzz', function() {
     it('returns fizz if multiple of 3', function() {
         expect(fizzBuzz(9)).toBe('Fizz');
     });
-    it('returns the number if is not divible by 3 or 5', function(){
-        expect(fizzBuzz(7)).toBe(7)
+
+    it('returns the number if is not divible by 3 or 5', function() {
+        expect(fizzBuzz(7)).toBe(7);
+    });
+
+    it('returns FizzBuzz id passed a multiple of 15', function() {
+        expect(fizzBuzz(30)).toBe('FizzBuzz');
     });
 });
