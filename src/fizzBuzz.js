@@ -1,3 +1,7 @@
 function fizzBuzz(num) {
-  return 'Fizz'
+    if (num === 3){
+        return 'Fizz'
+    } else if ( num === 5) {
+        return 'Buzz'
+    };  
 };
